@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/playground/static/css/main.573af274.chunk.css",
+    "main.js": "/playground/static/js/main.7f1761dd.chunk.js",
+    "main.js.map": "/playground/static/js/main.7f1761dd.chunk.js.map",
+    "runtime~main.js": "/playground/static/js/runtime~main.c80ac52c.js",
+    "runtime~main.js.map": "/playground/static/js/runtime~main.c80ac52c.js.map",
+    "static/js/2.e29d3923.chunk.js": "/playground/static/js/2.e29d3923.chunk.js",
+    "static/js/2.e29d3923.chunk.js.map": "/playground/static/js/2.e29d3923.chunk.js.map",
+    "index.html": "/playground/index.html",
+    "precache-manifest.ff19214adc9f6240323a084059e4b9b9.js": "/playground/precache-manifest.ff19214adc9f6240323a084059e4b9b9.js",
+    "service-worker.js": "/playground/service-worker.js",
+    "static/css/main.573af274.chunk.css.map": "/playground/static/css/main.573af274.chunk.css.map",
+    "static/media/snow-dog.jpg": "/playground/static/media/snow-dog.e9f83e7e.jpg"
+  }
+}
