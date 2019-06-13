@@ -1,0 +1,32 @@
+.Box {
+  box-sizing: border-box;
+  position: relative;
+  font-size: 0;
+  margin-bottom: 15px;
+}
+
+.image {
+  width: 100%;
+}
+
+.newsBoxInfo {
+  width: 100%;
+  bottom: 0px;
+  color: white;
+  text-align: left;
+  position: absolute;
+}
+
+.newsBoxTitle {
+  background-color: rgba(16, 83, 117, 0.85);
+  font-weight: bolder;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.newsBoxSubTitle {
+  background-color: rgba(6, 38, 54, 0.75);
+  font-weight: bolder;
+  font-size: 31px;
+  font-style: normal;
+}

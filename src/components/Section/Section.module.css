@@ -1,0 +1,40 @@
+.Section {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.4em;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.Section > span {
+  position: relative;
+  display: inline-block;
+}
+
+.Section > span:before,
+.Section > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 5px;
+
+  background: rgb(0, 37, 117);
+}
+
+.Section > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.Section > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
