@@ -1,0 +1,68 @@
+.mainContainer {
+  background-color: #e8dbe9;
+  margin-top: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  text-align: center;
+}
+
+h2 {
+  color: #611f69;
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.somePageWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196f3;
+  background-color: #fff;
+  background-color: #e8dbe9;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1340px) {
+  .somePageWrapper {
+    grid-template-columns: auto auto;
+    max-width: 800px;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 860px) {
+  .somePageWrapper {
+    grid-template-columns: auto;
+    max-width: 500px;
+  }
+}
+
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #611f69;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2rem;
+  margin: 5px 15px;
+  border-radius: 31px;
+}
+
+.item:hover {
+  color: rgba(255, 255, 255, 0.8);
+  color: #611f69;
+
+  background-color: black;
+
+  background-color: #f2e0f3;
+
+  background-color: #db92dd;
+}

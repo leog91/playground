@@ -1,0 +1,9 @@
+.Header {
+  background-color: antiquewhite;
+  padding-bottom: 15px;
+}
+
+.Line {
+  height: 10px;
+  background-color: black;
+}
