@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/playground">
       <div className="App">
         <Header />
       </div>
